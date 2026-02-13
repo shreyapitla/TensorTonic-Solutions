@@ -11,7 +11,5 @@ def dot_product(x, y):
         raise ValueError
     for i in range(0,len(x)):
         s+=x[i]*y[i]
-    
-        
     return s
     pass
